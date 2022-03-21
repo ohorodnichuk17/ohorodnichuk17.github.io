@@ -1,7 +1,7 @@
 # Персональний сайт
 
-# **Огороднічук Юлії**
+# **Ohorodnichuk Julia**
 
-# Шаг
+# STEP
 
-# ohorodnichuk17.github.io
+# 19/03/2022
