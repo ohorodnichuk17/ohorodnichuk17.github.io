@@ -35,6 +35,10 @@
         font-size: 2em;
        }
     </style>
+    <script>
+        window.onload = function(){
+        setInterval(clockPainting, 1000);}
+        </script>
 </head>
 <body background="images/bg.jpg">
 <table border="1" align="center" cellpadding="10">
@@ -52,7 +56,10 @@
                         </b></font></td>
     </tr>
     <tr>
-        <td width="30%" valign="top" >
+        <td width="30%" valign="top">
+            <center><canvas id="canvas" height="120" width="120"></canvas></center>
+            <hr>
+
             <font size="5" color="navy"><h2>Новини</h2></font>
                 <font size="5">
             <ul>
