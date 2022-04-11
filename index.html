@@ -3,26 +3,27 @@
     <meta charset="UTF-8">
     <title>Сайт web-студії "Web-DECO"</title>
     <script src="js/clock.js"></script>
-    <script>type="text/javascript"
-        function send(){
+    <script type="text/javascript">
+        function send()
+        {
             var valid = true;
             var elems = document.forms[0].elements;
-            for(var i=0; i<document.forms[0].length; i++){
-                if(elems[i].getAttribute('type')=='text'||
-                elems[i].getAttribute('type')=='password'||
-                elems[i].getAttribute('type')=='email'){
-                    if(elems[i].value == ''){
-                        elems[i].style.border = '2px solid red';
-                        valid = false;
+            for(var i=0; i<document.forms[0].length; i++) {
+                if( elems[i].getAttribute('type') == 'text' || 
+                    elems[i].getAttribute('type') == 'password' ||
+                    elems[i].getAttribute('type') == 'email' ) {
+                        if(elems[i].value == '') {
+                            elems[i].style.border = '2px solid red';
+                            valid = false;
+                        }
                     }
-                }
             }
-            if(!valid){
-                alert('Заповніть усі поля!');
+            if(!valid) {
+                alert('Заповніть всі поля!!!');
                 return false;
             }
         }
-        </script>
+    </script>
 
     <style>
     .shadowtext {
@@ -31,7 +32,6 @@
         font-size: 2em;
        }
     </style>
-    <script src="js/clock1.js"></script>
     <script>
         window.onload = function(){
         setInterval(clockPainting, 1000);}
